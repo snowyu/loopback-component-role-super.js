@@ -15,7 +15,7 @@ This loopback component add a new dynamic role: admin to become a super user.
 
   ```json
   {
-    "loopback-component-role-admin": {
+    "loopback-component-role-super": {
       "enabled": true,
       "role": "admin",
       "models": []
