@@ -25,7 +25,7 @@ This loopback component add a new dynamic role: admin to become a super user.
   - `enabled` *[Boolean]*: whether enable this component. *defaults: true*
   - `role` *[String]* : the role name. *defaults: $admin*
   - `models` *[Boolean|Array of string]*. *defaults: true*
-    * enable the admin role to the models. `true` means all models are the app.models.
+    * enable the admin role to the models. `true` means all models in the app.models.
   - `isAdminUser` *[Function(aUserId, aRoleName, callback)]*: the callback function to check whether
     the `aUserId` is an admin user.
     * the `callback` function(err, result) the result should be a boolean.
