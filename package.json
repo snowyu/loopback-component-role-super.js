@@ -1,7 +1,7 @@
 {
   "name": "loopback-component-role-super",
   "description": "the dynamic superuser(admin) role for the loopback application.",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": {
     "name": "Riceball LEE",
     "email": "snowyu.lee@gmail.com",

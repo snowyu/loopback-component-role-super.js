@@ -2,6 +2,7 @@
 
 This loopback component add a new dynamic role: admin to become a super user.
 
+You can use the [loopback-component-role-user](https://github.com/snowyu/loopback-component-role-user.js) instead of it for more features.
 
 ### Installation
 
