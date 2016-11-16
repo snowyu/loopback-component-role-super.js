@@ -12,4 +12,4 @@ module.exports = (app, options) ->
   if !options or options.enabled isnt false
     adminRole(app, options)
   else
-    Promise.reject(new TypeError 'component not enabled')
+    debug 'component not enabled'
